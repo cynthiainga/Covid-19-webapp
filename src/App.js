@@ -1,22 +1,19 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { Provider } from 'react-redux';
-import store from './redux/configureStore';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
 import Home from './components/Home';
+import Continent from './components/Continent';
 import Details from './components/Details';
 
 const App = () => (
-  <Provider store={store}>
-    <Router>
-      <Switch>
-        <Route path="/" exact>
-          <Home />
-        </Route>
-        <Route path="/:id">
-          <Details />
-        </Route>
-      </Switch>
-    </Router>
-  </Provider>
+  <Router>
+    <Header />
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route path="/continent/:continent" element={<Continent />} />
+      <Route path="/country/:name" element={<Details />} />
+    </Routes>
+  </Router>
 );
 
 export default App;
