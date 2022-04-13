@@ -1,14 +1,16 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
-import countriesReducer from './countries/country';
+import logger from 'redux-logger';
+import { continentReducer, statsReducer } from './countries/countries';
 
 const reducer = combineReducers({
-  countriesReducer,
+  details: statsReducer,
+  continent: continentReducer,
 });
 
 const store = createStore(
   reducer,
-  applyMiddleware(thunk),
+  applyMiddleware(thunk, logger),
 );
 
 export default store;
