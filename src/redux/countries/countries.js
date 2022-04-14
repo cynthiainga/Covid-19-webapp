@@ -10,13 +10,13 @@ const continentState = [
     name: 'Africa',
     classname: 'Africa',
     map: Africa,
-    number: 54,
+    number: 55,
   },
   {
     name: 'Asia',
     classname: 'Asia',
     map: Asia,
-    number: 55,
+    number: 54,
   },
   {
     name: 'Oceania',
@@ -43,7 +43,7 @@ const continentState = [
     number: 12,
   },
 ];
-const GET_STATS = 'covid-19-webapp/GET_STATS';
+const GET_STATS = 'covid/GET_STATS';
 const initialState = [];
 
 export const continentReducer = (state = continentState) => state;
