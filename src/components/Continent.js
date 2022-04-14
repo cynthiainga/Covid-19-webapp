@@ -57,7 +57,7 @@ const Continent = () => {
         tenItems.map((country) => (
           <Link key={country.country} to={{ pathname: `/country/${country.country}` }}>
             <li className="countries-item">
-              <p><CircleIcon /></p>
+              <p className="countries-icon"><CircleIcon /></p>
               <div>
                 <h1 className="country-name">
                   {country.country}
