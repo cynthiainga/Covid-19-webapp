@@ -20,7 +20,7 @@ const continentState = [
   },
   {
     name: 'Oceania',
-    classname: 'Oceania',
+    classname: 'Australia-Oceania',
     map: Oceania,
     number: 25,
   },
@@ -43,17 +43,18 @@ const continentState = [
     number: 12,
   },
 ];
+
+export const ContinentReducer = (state = continentState) => state;
+
 const GET_STATS = 'covid/GET_STATS';
 const initialState = [];
-
-export const continentReducer = (state = continentState) => state;
 
 export const GetStates = (payload) => ({
   type: GET_STATS,
   payload,
 });
 
-export const statsReducer = (state = initialState, action) => {
+export const StatsReducer = (state = initialState, action) => {
   switch (action.type) {
     case GET_STATS:
       return [...state, ...action.payload];
