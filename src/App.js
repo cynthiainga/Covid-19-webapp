@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
 import Continent from './components/Continent';
-import Details from './components/Details';
+import Country from './components/Details';
 
 const App = () => (
   <Router>
@@ -11,7 +11,7 @@ const App = () => (
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="/continent/:continent" element={<Continent />} />
-      <Route path="/country/:name" element={<Details />} />
+      <Route path="/country/:name" element={<Country />} />
     </Routes>
   </Router>
 );

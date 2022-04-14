@@ -1,6 +1,6 @@
 import Africa from '../../images/Africa.png';
 import Asia from '../../images/asia.png';
-import Oceania from '../../images/oceania.png';
+import Australia from '../../images/oceania.png';
 import Europe from '../../images/europe.png';
 import Northamerica from '../../images/northamerica.png';
 import Southamerica from '../../images/southamerica.png';
@@ -21,7 +21,7 @@ const continentState = [
   {
     name: 'Oceania',
     classname: 'Australia-Oceania',
-    map: Oceania,
+    map: Australia,
     number: 25,
   },
   {
