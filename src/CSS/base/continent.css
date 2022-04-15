@@ -30,6 +30,8 @@
   text-align: center;
   justify-content: center;
   background-color: #fff;
+  color: black;
+  font-size: 1.2rem;
 }
 
 input::placeholder {
