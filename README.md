@@ -20,7 +20,7 @@ This project is built with:
 - ![HTML](https://img.shields.io/badge/-HTML-1d1919?style=flat&logo=html5)
 - ![CSS3](https://img.shields.io/badge/-CSS3-000000?style=flat&logo=css3&logoColor=ffffff&labelColor=1572B6)
 
-## [Live Demo]()
+## [Live Demo](https://covid-19-appli.netlify.app/)
 ## [Video Link]()
 
 ## Getting Started
