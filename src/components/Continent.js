@@ -6,7 +6,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { FaRegArrowAltCircleRight as CircleIcon } from 'react-icons/fa';
 import FetchData from '../redux/api';
 import SetPagination from './Pagination';
-import { GetStates } from '../redux/countries/countries';
+import { GetStates } from '../redux/countries';
 
 const Continent = () => {
   const Countries = useSelector((store) => store.details);

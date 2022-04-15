@@ -1,9 +1,9 @@
-import Africa from '../../images/Africa.png';
-import Asia from '../../images/asia.png';
-import Australia from '../../images/oceania.png';
-import Europe from '../../images/europe.png';
-import Northamerica from '../../images/northamerica.png';
-import Southamerica from '../../images/southamerica.png';
+import Africa from '../images/Africa.png';
+import Asia from '../images/asia.png';
+import Australia from '../images/oceania.png';
+import Europe from '../images/europe.png';
+import Northamerica from '../images/northamerica.png';
+import Southamerica from '../images/southamerica.png';
 
 const continentState = [
   {
@@ -19,10 +19,10 @@ const continentState = [
     number: 39,
   },
   {
-    name: 'Oceania',
+    name: 'Australia-Oceania',
     classname: 'Australia-Oceania',
     map: Australia,
-    number: 25,
+    number: 10,
   },
   {
     name: 'Europe',
@@ -34,7 +34,7 @@ const continentState = [
     name: 'North America',
     classname: 'North-America',
     map: Northamerica,
-    number: 29,
+    number: 3,
   },
   {
     name: 'South America',

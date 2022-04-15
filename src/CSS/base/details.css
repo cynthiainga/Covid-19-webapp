@@ -1,5 +1,5 @@
 .details-container {
-  background-color: #c92f7c;
+  background-color: #fc5193;
 }
 
 .country-details {
@@ -7,7 +7,7 @@
   align-items: center;
   text-align: center;
   justify-content: space-evenly;
-  background-color: #d4438c;
+  background-color: #ec4c8a;
 }
 
 .country-details h1 {
@@ -25,6 +25,7 @@
   height: 258px;
   padding: 10px 0;
   border-radius: 19px;
+  opacity: 0.8;
 }
 
 .details-list,
@@ -33,7 +34,7 @@
   text-align: center;
   align-items: center;
   color: #fff;
-  background-color: #d4438c;
+  background-color: #f7669d;
   margin: 0 auto;
   padding: 0;
   border: 1px solid #f4f4f7;
@@ -49,7 +50,7 @@
   text-align: center;
   justify-content: space-between;
   color: #fff;
-  background-color: #d4438c;
+  background-color: #eb6296;
   width: 100%;
   height: 50px;
 }
@@ -72,5 +73,5 @@
 
 .details-item:nth-child(even),
 .total-item:nth-child(even) {
-  background-color: #df599c;
+  background-color: #ec4c8a;
 }

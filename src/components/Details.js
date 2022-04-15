@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import FetchData from '../redux/api';
-import { GetStates } from '../redux/countries/countries';
+import { GetStates } from '../redux/countries';
 
 const Country = () => {
   const CountryStore = useSelector((store) => store.details);

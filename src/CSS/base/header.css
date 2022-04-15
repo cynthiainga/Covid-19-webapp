@@ -4,7 +4,7 @@
   text-align: center;
   justify-content: space-between;
   color: #fff;
-  background-color: #dd5499;
+  background-color: #f03f83;
   height: 80px;
 }
 
@@ -36,7 +36,7 @@
   text-align: center;
   justify-content: center;
   color: #fff;
-  background-color: #e40a5e93;
+  background-color: #e73a7c;
   height: 70px;
 }
 
@@ -56,4 +56,5 @@
   height: 69px;
   border-radius: 45px 44px 47px 50px;
   padding-left: 9px;
+  opacity: 0.8;
 }

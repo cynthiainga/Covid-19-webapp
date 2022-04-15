@@ -6,10 +6,24 @@
 
 * {
   list-style: none;
-  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #fff;
+  --secondary: #f03f83;
+  --dark-secondary: #ec4c8a;
+  --light-secondary: #fc5193;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  background-color: var(--secondary);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
