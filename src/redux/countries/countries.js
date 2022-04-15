@@ -10,13 +10,13 @@ const continentState = [
     name: 'Africa',
     classname: 'Africa',
     map: Africa,
-    number: 55,
+    number: 48,
   },
   {
     name: 'Asia',
     classname: 'Asia',
     map: Asia,
-    number: 54,
+    number: 39,
   },
   {
     name: 'Oceania',
@@ -28,19 +28,19 @@ const continentState = [
     name: 'Europe',
     classname: 'Europe',
     map: Europe,
-    number: 27,
+    number: 38,
   },
   {
     name: 'North America',
     classname: 'North-America',
     map: Northamerica,
-    number: 3,
+    number: 29,
   },
   {
     name: 'South America',
     classname: 'South-America',
     map: Southamerica,
-    number: 12,
+    number: 10,
   },
 ];
 
