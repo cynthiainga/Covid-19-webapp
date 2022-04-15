@@ -3,7 +3,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  background-color: #fc5192ce;
+  background-color: #fc5193;
   color: #fff;
   flex-direction: column;
   padding: 0;
@@ -44,7 +44,7 @@ input::placeholder {
 }
 
 .countries-list a {
-  background-color: #d4438c;
+  background-color: #fd69a2;
   padding: 5px;
   font-size: 20px;
   margin: 0;
@@ -89,9 +89,10 @@ input::placeholder {
   border-radius: 9px;
   padding: 0;
   margin: 0;
+  opacity: 0.5;
 }
 
 .countries-list a:nth-child(4n),
 .countries-list a:nth-child(4n + 1) {
-  background-color: #df599c;
+  background-color: #fc5193;
 }
