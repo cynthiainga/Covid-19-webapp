@@ -4,8 +4,8 @@ const URL = 'https://disease.sh/v3/covid-19/countries';
 
 const FetchData = async () => {
   const dataStore = [];
-  const response = await axios.get(URL);
-  response.data.map(({ countryInfo: { _id: id, flag }, ...data }) => {
+  const res = await axios.get(URL);
+  res.data.map(({ countryInfo: { _id: id, flag }, ...data }) => {
     const collectedData = {
       continent: data.continent,
       country: data.country,

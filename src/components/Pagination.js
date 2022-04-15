@@ -23,9 +23,9 @@ const Pagination = (props) => {
 };
 
 Pagination.propTypes = {
-  countryPages: PropTypes.string.isRequired,
-  itemsPerPage: PropTypes.string.isRequired,
-  onPageChange: PropTypes.string.isRequired,
+  countryPages: PropTypes.number.isRequired,
+  itemsPerPage: PropTypes.number.isRequired,
+  onPageChange: PropTypes.func.isRequired,
 
 };
 export default Pagination;

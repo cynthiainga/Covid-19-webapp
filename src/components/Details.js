@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import FetchData from '../redux/api';
 import { GetStates } from '../redux/countries/countries';
 
-const Details = () => {
+const Country = () => {
   const CountryStore = useSelector((store) => store.details);
   const dispatch = useDispatch();
   const { name } = useParams();
@@ -23,7 +23,7 @@ const Details = () => {
     <div className="details-container">
       <div className="country-details">
         <h1>{name}</h1>
-        <img src={findCountry.country_flag} alt="flag" className="flag2" />
+        <img src={findCountry.country_flag} alt="flag" className="flag-img" />
         <h2>{findCountry.population.toLocaleString()}</h2>
       </div>
       <div>
@@ -70,4 +70,4 @@ const Details = () => {
   );
 };
 
-export default Details;
+export default Country;

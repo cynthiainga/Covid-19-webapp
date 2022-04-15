@@ -1,0 +1,76 @@
+.details-container {
+  background-color: #c92f7c;
+}
+
+.country-details {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: #d4438c;
+}
+
+.country-details h1 {
+  font-size: 1.888rem;
+  color: #fff;
+}
+
+.country-details h2 {
+  font-size: 1.888rem;
+  color: #fff;
+}
+
+.flag-img {
+  width: 357px;
+  height: 258px;
+  padding: 10px 0;
+  border-radius: 19px;
+}
+
+.details-list,
+.total-list {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  background-color: #d4438c;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid #f4f4f7;
+  flex-direction: column;
+  width: 880px;
+  border-radius: 9px;
+}
+
+.details-item,
+.total-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  color: #fff;
+  background-color: #d4438c;
+  width: 100%;
+  height: 50px;
+}
+
+.details-item h4 {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.total-item h4 {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.detail-number,
+.total-number {
+  margin-right: 19px;
+  font-size: 18px;
+}
+
+.details-item:nth-child(even),
+.total-item:nth-child(even) {
+  background-color: #df599c;
+}

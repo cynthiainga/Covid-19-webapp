@@ -5,7 +5,7 @@ import {
 import { useSelector, useDispatch } from 'react-redux';
 import { FaRegArrowAltCircleRight as CircleIcon } from 'react-icons/fa';
 import FetchData from '../redux/api';
-import Pagination from './Pagination';
+import SetPagination from './Pagination';
 import { GetStates } from '../redux/countries/countries';
 
 const Continent = () => {
@@ -39,7 +39,7 @@ const Continent = () => {
     setSearchValue(event.target.value);
   };
 
-  const itemsPerPage = 12;
+  const itemsPerPage = 10;
 
   const tenItems = Continents.slice(page * itemsPerPage, (page * itemsPerPage) + itemsPerPage);
 
@@ -57,7 +57,7 @@ const Continent = () => {
         tenItems.map((country) => (
           <Link key={country.country} to={{ pathname: `/country/${country.country}` }}>
             <li className="countries-item">
-              <p><CircleIcon /></p>
+              <p className="countries-icon"><CircleIcon /></p>
               <div>
                 <h1 className="country-name">
                   {country.country}
@@ -74,7 +74,7 @@ const Continent = () => {
         ))
       }
       </ul>
-      <Pagination
+      <SetPagination
         countryPages={Continents.length}
         itemsPerPage={itemsPerPage}
         onPageChange={setPage}
