@@ -19,10 +19,10 @@ const continentState = [
     number: 39,
   },
   {
-    name: 'Oceania',
+    name: 'Australia-Oceania',
     classname: 'Australia-Oceania',
     map: Australia,
-    number: 25,
+    number: 10,
   },
   {
     name: 'Europe',

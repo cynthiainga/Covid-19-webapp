@@ -129,7 +129,7 @@ Object {
             </li>
           </a>
           <a
-            href="/continent/Oceania"
+            href="/continent/Australia-Oceania"
           >
             <li
               class="continent-item"
@@ -138,12 +138,12 @@ Object {
                 <h2
                   class="continent-name"
                 >
-                  Oceania
+                  Australia-Oceania
                 </h2>
                 <h2
                   class="country-number"
                 >
-                  25
+                  10
                    
                   countries
                 </h2>
@@ -381,7 +381,7 @@ Object {
           </li>
         </a>
         <a
-          href="/continent/Oceania"
+          href="/continent/Australia-Oceania"
         >
           <li
             class="continent-item"
@@ -390,12 +390,12 @@ Object {
               <h2
                 class="continent-name"
               >
-                Oceania
+                Australia-Oceania
               </h2>
               <h2
                 class="country-number"
               >
-                25
+                10
                  
                 countries
               </h2>
