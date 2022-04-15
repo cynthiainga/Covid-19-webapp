@@ -1,0 +1,29 @@
+@import './base/continent.css';
+@import './base/pagination.css';
+@import './base/details.css';
+@import './base/home.css';
+@import './base/header.css';
+
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #fff;
+  --secondary: #f03f83;
+  --dark-secondary: #ec4c8a;
+  --light-secondary: #fc5193;
+}
+
+body {
+  background-color: var(--secondary);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
