@@ -21,7 +21,6 @@ This project is built with:
 - ![CSS3](https://img.shields.io/badge/-CSS3-000000?style=flat&logo=css3&logoColor=ffffff&labelColor=1572B6)
 
 ## [Live Demo](https://covid-19-appli.netlify.app/)
-## [Video Link](https://www.loom.com/share/e05843b4ceec4ab4bff714bbf1703156)
 
 ## Getting Started
 
